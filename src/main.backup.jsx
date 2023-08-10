@@ -91,16 +91,16 @@ const appElementJSX = (
 /* React 요소를 재사용하기 위한 함수 작성 --------------------------------------------- */
 
 {
-  // const domAbbrElement = React.createElement(
-  //   'abbr',
-  //   { title: 'Document Object Model'},
-  //   'DOM'
-  // );
-  // const uiAbbrElement = React.createElement(
-  //   'abbr',
-  //   { title: 'User Interface'},
-  //   'UI'
-  // );
+  const domAbbrElement = React.createElement(
+    'abbr',
+    { title: 'Document Object Model'},
+    'DOM'
+  );
+  const uiAbbrElement = React.createElement(
+    'abbr',
+    { title: 'User Interface'},
+    'UI'
+  );
   // - [ ] React 요소를 반환하는 함수 만들기
   //   1. 함수 작성 createAbbrElement()
   // - [ ] 인수를 전달해 재사용 가능하도록 구현
